@@ -650,8 +650,27 @@ progress {
   height: auto;
 }
 
+.img-principal{
+  position: absolute;
+  border-radius: 50%;
+  z-index: 10;
+  height: 15rem;
+  top: 2em;
+  left: 4em;
+  width: 15rem;
+}
+
 #img_casino{
-  height: 288px;
+  position: absolute;
+  z-index: 10;
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  top: 2em;
+  left: 4em;
+}
+#img_cas{
+  z-index: 5;
 }
 
 .img-thumbnail {
